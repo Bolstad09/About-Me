@@ -4,5 +4,15 @@
 }
 
 h1{
-    color: gray;
+    color: rgb(77, 68, 68);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h2{
+    color: white;
+
+}
+
+ol{
+    color: rgba(0, 255, 255, 0.582)  
 }
