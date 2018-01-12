@@ -90,7 +90,7 @@ console.log(userPoints);
     alert('Sorry, that\'s incorrect, let\'s see what your score is!');
 }
 // ---------------------FOR MY OWN USE -------------------------------
-alert('you have ' + userPoints + ' points');
+alert('you have ' + userPoints + ' points, great job, ' + user);
 
 
 
