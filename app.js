@@ -18,7 +18,7 @@ alert('Welcome ' + user + '! Very nice to meet you, lets go ahead and get starte
 // //     else {
 // //     alert('Okay, I\'ll wait...');
 // ---------------------FOR MY OWN USE -------------------------------
-var answer = prompt('First of all, do you think I\'m obsessed with dogs?' , 'type Yes or No').toLowerCase();
+var answer = prompt('First of all, do you think I\'m obsessed with dogs?' , 'type Yes or No').toUpperCase();
    
 
 console.log(answer);
@@ -29,7 +29,7 @@ console.log(answer);
 //we need to use toLowerCase or toUpperCase
 //we want to use a confirm box
 
-if (answer === 'yes' || answer === 'y'){
+if (answer === 'YES' || answer === 'Y') {
     //if it's correct give them a point
     userPoints++;
 console.log(userPoints);
@@ -40,12 +40,12 @@ console.log(userPoints);
 }
 
 // ---------------------FOR MY OWN USE -------------------------------
-var answer2= prompt(user + ', do you think my dog\'s name is Na\'kita?' , 'type Yes or No').toUpperCase();
+var answer2 = prompt(user + ', do you think my dog\'s name is Na\'kita?' , 'type Yes or No').toUpperCase();
     
 
 console.log(answer2);
 
-if (answer2 === 'YES' || 'Y'){
+if (answer2 === 'YES' || answer2 === 'Y'){
     userPoints++;
 console.log(userPoints);
     
@@ -53,36 +53,36 @@ console.log(userPoints);
     alert('Sorry, that\'s incorrect, on to the next question');
 }
 // ---------------------FOR MY OWN USE -------------------------------
-var answer3= prompt('Do I like cats?' , 'type Yes or No').toUpperCase();
+var answer3 = prompt('Do I like cats?' , 'type Yes or No').toUpperCase();
   
     console.log(answer3);
 
-if (answer3 === 'NO' || 'N'){
+if (answer3 === 'NO' || answer3 === 'N'){
     userPoints++;
-console.log(userPoints);
+    console.log(userPoints);
     
 } else{
     alert('You\'re incorrect!');
 } 
 // ---------------------FOR MY OWN USE -------------------------------
-var answer4= prompt('Do I like pizza?' , 'type Yes or No').toUpperCase();
+var answer4 = prompt('Do I like pizza?' , 'type Yes or No').toUpperCase();
     
 
     console.log(answer4);
     
 
-if (answer4 === 'YES' || 'Y'){
+if (answer4 === 'YES' || answer4 === 'Y'){
     userPoints++;
-console.log(userPoints);
+    console.log(userPoints);
     
 }
 // ---------------------FOR MY OWN USE -------------------------------
-var answer5= prompt(user + ', Do I like wine? ' , 'type Yes or No').toUpperCase();
+var answer5 = prompt(user + ', Do I like wine? ' , 'type Yes or No').toUpperCase();
     
 
     console.log(answer5);
 
-if (answer5 === 'YES' || 'Y'){
+if (answer5 === 'YES' || answer5 === 'Y'){
     userPoints++;
 console.log(userPoints);
     
