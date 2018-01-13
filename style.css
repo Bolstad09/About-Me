@@ -16,28 +16,18 @@ h1 {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: bold;
-
 }
 
 h2 {
     color: rgb(39, 37, 37);
-   
 }
 
 dt {
     color: white
-
 }
 
-/* dd {
-    color: rgb(0, 255, 255, 0.582);
-  
-} */
- 
 h3 {
     color: rgb(39, 37, 37);
- 
-
 }
 
 
