@@ -2,17 +2,34 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: indianred
 }
+#aboutMe{
+    -moz-box-shadow: 0 0 10px #554c4c;
+    -webkit-box-shadow: 0 0 10px #554c4c;
+    box-shadow: 0 0 10px #554c4c;
+
+}
 
 h1{
-    color: rgb(77, 68, 68);
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 h2{
-    color: white;
+    color: rgb(77, 68, 68);
 
 }
 
-ol{
-    color: rgba(0, 255, 255, 0.582)  
+dl{
+    color: rgba(0, 255, 255, 0.582) 
+    border-top-width: 25px
+    border-right-width: 25px
+    border-bottom-width: 25px
+    border-left-width: 25px 
 }
+/* 
+.questions {
+    border-top-width: 25px
+    border-right-width: 25px
+    border-bottom-width: 25px
+    border-left-width: 25px
+} */
