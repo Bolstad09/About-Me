@@ -99,32 +99,94 @@
 // } else{
 //   alert('Sorry, that\'s incorrect.');
 // }
+// // -----------------FOR MY USE ONLY------------------
+
+// var guess = prompt('How many dogs do you think I want?').toUpperCase();
+// console.log('before loop: ' + guess);
+
+// var correctNumber = 7;
+// var notDone = true;
+// for (var guesses = 3; guesses > 0 && notDone; guesses--) {
+//   console.log('inside loop: ' + guesses);
+//   guess = parseInt(guess); // convert user input to number
+//   if (guess === correctNumber) {
+//     alert('You got the right number');
+//     notDone = false;
+//     console.log(notDone);
+//   } else if (guesses === 1) {
+//     alert ('You are out of guesses, I want 7 dogs!');
+//   } else if (guess > correctNumber) {
+//     guess = parseInt(prompt('Try again but a little lower'));
+//     console.log(guess);
+//   } else if (guess < correctNumber) {
+//     guess = parseInt (prompt('Try again, but a little higher'));
+//     console.log(guess);
+//   }
+// }
+// console.log(correctNumber);
 // -----------------FOR MY USE ONLY------------------
 
-var guess = prompt('How many dogs do you think I want?').toUpperCase();
-console.log('before loop: ' + guess);
 
-var correctNumber = 7;
-var notDone = true;
-for (var guesses = 3; guesses > 0 && notDone; guesses--) {
-  console.log('inside loop: ' + guesses);
-  guess = parseInt(guess); // convert user input to number
-  if (guess === correctNumber) {
-    alert('You got the right number');
-    notDone = false;
-    console.log(notDone);
-  } else if (guesses === 1) {
-    alert ('You are out of guesses, I want 7 dogs!');
-  } else if (guess > correctNumber) {
-    guess = parseInt(prompt('Try again but a little lower'));
-    console.log(guess);
-  } else if (guess < correctNumber) {
-    guess = parseInt (prompt('Try again, but a little higher'));
-    console.log(guess);
+
+// --------------comment back in - keep out for now  --------------
+// var answer7 = prompt('Can you guess one of the 6 contries I\'ve visted in the past year?').toUpperCase;
+// console.log(answer7);
+
+// var placeITraveled = ['mexico', 'croatia', 'canada', 'london', 'japan', 'iceland'];
+// var i = 0;
+
+// do {
+//   i = i + 1;
+//   placeITraveled = placeITraveled + i;
+// } while (i < 6);
+// --------------comment back in --- keep out for now --------------
+
+for (var i = 0; i < correctName.length; i++) {
+  console.log(correctName[i]);
+} 
+
+var guess1 = prompt('What countries have I been to?').toUpperCase();
+console.log('before loop: ' + guess1);
+
+var correctName = ['Mexico', 'Croatia', 'Canada', 'London','Japan', 'Iceland'];
+var notDone1 = true;
+for (var guesses1 = 6; guesses1 > 0 && notDone1; guesses1--) {
+  console.log('inside loop: ' + guesses1);
+  guess1 = parseInt(guess1); // convert user input to number
+  if (guess1 === correctName) {
+    alert('You\'re right! I went to Mexico, Croatia, Canada, London, Japan and Iceland.');
+    notDone1 = false;
+    console.log(notDone1);
+  } else if (guess1 !== correctName) {
+    guess1 = parseInt (prompt('Try again, you get a total of 6 tries!'));
+    console.log(guess1);
+  } else if (guesses1 === correctName) {
+    alert ('You are out of guesses, I went to Mexico, Croatia, Canada, London, Japan and Iceland.');
+    console.log(guesses1);
   }
 }
-console.log(correctNumber);
-// -----------------FOR MY USE ONLY------------------
+    
+//   } else if (guess1 < correctName) {
+//     guess = parseInt (prompt('Try again, but a little higher'));
+    // console.log(guess1);
+//   }
+
+// console.log(correctName);
+
+// && notDone;
+
+
+// if (placeITraveled === 'mexico'|| placeITraveled === 'croatia' || placeITraveled === 'canada' || placeITraveled === 'london'|| placeITraveled === 'japan'|| placeITraveled === 'iceland'){
+//   userPoints++;
+//   prompt('Yep! I\'ve been to Mexico, Croatia, Canada, London, Japan and Iceland');
+// console.log(placeITraveled);
+
+
+
+// // -----------------FOR MY USE ONLY------------------
+// alert('you have ' + userPoints + ' points, great job, ' + user);
+// // -----------------FOR MY USE ONLY------------------
+
 
 // // var placeITraveled = ['mexico', 'croatia', 'canada', 'london', 'japan', 'iceland'];
 // // for (var i = 0; i < placeITraveled.length; i++) {
@@ -142,34 +204,6 @@ console.log(correctNumber);
 // // var answerPlaceITraveled){
 
 // // }
-
-// --------------comment back in --------------
-var answer7 = prompt('Can you guess one of the 6 contries I\'ve visted in the past year?').toUpperCase;
-console.log(answer7);
-
-var placeITraveled = ['mexico', 'croatia', 'canada', 'london', 'japan', 'iceland'];
-var i = 0;
-
-do {
-  i = i + 1;
-  placeITraveled = placeITraveled + i;
-} while (i < 6);
-// --------------comment back in --------------
-
-
-// if (placeITraveled === 'mexico'|| placeITraveled === 'croatia' || placeITraveled === 'canada' || placeITraveled === 'london'|| placeITraveled === 'japan'|| placeITraveled === 'iceland'){
-//   userPoints++;
-//   prompt('Yep! I\'ve been to Mexico, Croatia, Canada, London, Japan and Iceland');
-// console.log(placeITraveled);
-
-
-
-// -----------------FOR MY USE ONLY------------------
-alert('you have ' + userPoints + ' points, great job, ' + user);
-// -----------------FOR MY USE ONLY------------------
-
-
-
 
 
 
