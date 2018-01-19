@@ -22,12 +22,19 @@ h2 {
     color: rgb(39, 37, 37);
 }
 
-dt {
+dl {
     color: white
+    
 }
 
 h3 {
-    color: rgb(39, 37, 37);
+    color: rgb(28, 166, 221);
 }
+
+ol{
+    color: white;
+    text-align: center;
+}
+
 
 
